@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Fixar så att jag får en baggrundsbild som
+ är responsiv och ttäcker hela header*/
+header{
+  background-image: url(../img/brooklyn99header.jpeg);
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color:rgb(238,213,21);
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+/*fixar så att mina navlinks får rätt proportioner är 
+responsiva samt ändra färger*/
+.navlinks{
+  	width:repeat(12, 1fr);
+  	font-family: sans-serif;
+}
+.navlinks li {
+  display:block;
+  width: 20% ;
+  float:left;
+
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(54, 54, 139);
+
+}
+
+.navlinks a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:rgb(238,213,21);
+}
+/*Gör så att när man hovverrar över en navlink så ändras färgen*/
+.navlinks a:hover {
+	background-color:rgb(238,213,21);
+	color:rgb(54, 54, 139);
+}
+
+li a {
+  display: block;
+  padding: 0px;
+}
+.src{
+align-items: center;
+
+}
+.text{
+  text-align: center;
+  font-size: 15px;
+  
+}
