@@ -59,7 +59,27 @@ align-items: center;
 
 }
 .text{
-  text-align: center;
+  font-display:  center;
   font-size: 15px;
   
+}
+.roll{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.länkar{
+  text-decoration: none;
+  color:rgb(238,213,21);
+}
+.container{
+  background-color: rgb(63, 62, 62);
+  color:azure;
+
+}
+h2{
+  color:rgb(238,213,21);
+}
+.menu{
+  border-color: aliceblue;
+ padding-left:15px;
 }

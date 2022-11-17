@@ -24,6 +24,38 @@ ul {
   margin: 0;
   padding: 0;
 }
-.text{
+article{
   grid-column: 3/ 7;
+  justify-content: center;
+  font-display:flex;
+  padding-right:5px;
+
+}
+aside{
+  grid-column: 7/ 12;
+  grid-auto-rows: minmax(100px, auto);
+}
+section{
+grid-column: 1/ -1;
+
+}
+@media only screen and (max-width: 650px){
+  .roll {
+    display: none;
+  }
+  article{
+   grid-column: 5/ 12;
+  }
+   .navlinks{
+    display: flex;
+    flex-direction: column;
+    grid-column:1/-1;
+    align-items: center;
+    width:100%;
+   }
+   .src{
+  width:100%;
+  align-items: center;
+   }
+   
 }
